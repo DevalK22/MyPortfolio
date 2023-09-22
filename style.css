@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.self{
+    background: linear-gradient(300deg,#A0dbf2,#56C4f0,#449ABD);
+    animation: gradient-animation 10s ease infinite;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    width: 100vw;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    color: white;
+    gap: 40px;
+}
+p{
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.explain{
+    font-size: 20px;
+}
+.container2{
+    padding-top: 40px;
+    width: 100vw;
+    height: 200px;
+}
+.headingEdu{
+    padding-top: 30px;
+}
+.contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+.work{
+    padding-top: 80px;
+}
+.contents2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nic{
+    font-size: 20px;
+}
+.media{
+    text-align: center;
+}
+.media-body{
+    text-align: center;
+}
+.container4{
+    padding-left: 5rem;
+    padding-top: 100px;
+}
+.aboutme{
+    font-size: 80px;
+}
+.aboutmecard{
+    font-size: 24px;    
+}
